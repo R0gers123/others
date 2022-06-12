@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>google</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<style>
+			h2{color:#EA4335;}
+			h1{font-size: 20px; letter-spacing:1px; font-family:Arial, sans-serif;}
+			h1 span span { color: #4285F4; }
+			h1 span span:nth-child(2n) { color: #EA4335; }
+			h1 span span:nth-child(3n) { color: #FBBC05; }
+			h1 span span:nth-child(4n) { color: #4285F4; }
+			h1 span span:nth-child(5n) { color: #34A853; }
+			h1 span span:nth-child(6n) { color: #EA4335; }
+			table,th,td{
+				border:30px  white;
+				border-collapse:collapse;
+			}
+			th,td{
+				padding:10px;
+				text-align:left;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>
+		<span>
+			<span>G</span>
+            <span>o</span>
+            <span>o</span>
+            <span>g</span>
+            <span>l</span>
+            <span>e</span>
+        </span>
+        </h1>
+        <table style="width:100%">
+			<tr>
+				<td>
+					<h2>
+						Advanced Search
+					</h2>
+					<hr>
+					<p>Find pages with...</p>
+					<form action="https://google.com/search" name="f">
+						<div class="field">
+							<label for="field1">all these words:</label>
+							<input type="text" class="textinput" id="field1" value=""  name="as_q">
+						</div><br><br>
+						<div class="field">
+							<label for="field2">this exact word or phrase: </label>
+							<input type="text" class="textinput" id="field2" value=""  name="as_epq">
+						</div><br><br>
+						<div class="field">
+							<label for="field3">any of this words: </label>
+							<input type="text" class="textinput" id="field3" value=""  name="as_oq">
+						 </div><br><br>
+						 <div class="field">
+							 <label for="field4">none of these words: </label>
+							 <input type="text" class="textinput" id="field4" value=""  name="as_eq">
+						</div><br><br>
+						<div class="field">
+							<label for="field5">numbers ranging from: </label>
+							<input type="text" class="textinput1" id="field5" value=""  name="as_nlo">
+							<span class="seperator">to</span>
+							<input type="text" class="textinput2" id="field5" value=""  name="as_nhi">
+						</div><br>
+						<div align="center">
+						<input type="submit" value="advanced search" >
+						</div>
+					</form>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>
